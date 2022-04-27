@@ -3,7 +3,8 @@
 # Introduction:
 
   This code is a demonstration of the Kruskal and Prim algorithms to find minimum spanning forests from an un-directed edge-weighted graph.
-  The program builds the graph using an input file, then it uses Kruskal to calculate the weight of the graph into an output file.
+  The program builds the graph using an input file, then it uses Kruskal to calculate the weight of the graph into an output file,
+  the graph built from the input file is an un-directed weighted graph implemented using an Adjacancy List.
   Then it uses Prim to calculate the weight of the graph into the same output file (should be the same as the result of Kruskal's algorithm).
   Then the program will remove the edge between the two vertices in the last row of the input file, and will calculate once again the weight
   of the minimum spanning tree of the new graph after an edge has been removed, also using Kruskal.
