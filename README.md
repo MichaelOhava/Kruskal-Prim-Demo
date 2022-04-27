@@ -26,16 +26,16 @@
 
 # This program receives a text file as an input, like the following:
 
-6       // number of vertices
-10      // number of edges
-1 2 4   // edge from 1 to 2 weighted 4
-1 3 3   // edge from 1 to 3 weighted 3
-1 4 5   // ....
-2 3 5
-2 5 9
-3 4 5
-3 5 6
-3 6 4
-4 6 2
-5 6 6
+6       // number of vertices   <br />
+10      // number of edges      <br />
+1 2 4   // edge from 1 to 2 weighted 4  <br />
+1 3 3   // edge from 1 to 3 weighted 3  <br />
+1 4 5   // .... <br />
+2 3 5   <br />
+2 5 9   <br />
+3 4 5    <br />
+3 5 6    <br />
+3 6 4   <br />
+4 6 2   <br />
+5 6 6   <br />
 1 3     // this last edge is the edge that is removed before calculating kruskal again! read the introduction above to understand more.
